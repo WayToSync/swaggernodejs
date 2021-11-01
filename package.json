@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "workspace-example",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "server": "yarn workspace @swagger-nodejs/server start"
+  }
+}
